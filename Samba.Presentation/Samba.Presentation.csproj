@@ -359,6 +359,10 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="emeraldico.png" />
+    <Resource Include="Images\emeraldico.png" />
+    <Resource Include="Images\emeraldico2.png" />
+    <Resource Include="emeraldico2.png" />
     <Content Include="Images\empty.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

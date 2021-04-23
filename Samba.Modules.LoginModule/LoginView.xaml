@@ -30,12 +30,12 @@ xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         </TextBlock>
         <StackPanel Grid.Column="1" Grid.RowSpan="2" VerticalAlignment="Center">
             <Border Grid.Column="1" Width="350" Height="400" CornerRadius="10" BorderThickness="2"
-                 BorderBrush="LightSteelBlue">
+                 BorderBrush="red">
                 <Login1:LoginPadControl x:Name="PadControl" Margin="15" PinSubmitted="LoginPadControl_PinSubmitted" />
             </Border>
-            <TextBlock  FontSize="14" HorizontalAlignment="Center" Text="{Binding AdminPasswordHint}"
+            <TextBlock  FontSize="18"  HorizontalAlignment="Center" Foreground="White" Text="{Binding AdminPasswordHint}"
                  TextAlignment="Center" />
-            <Button HorizontalAlignment="Center" MinWidth="110" Height="50" FontWeight="Bold" FontSize="18"
+            <Button HorizontalAlignment="Center" Background="White" MinWidth="110" Height="50" FontWeight="Bold" FontSize="18"
                  Margin="5" Click="Button_Click">
                 <DockPanel>
                     <Image Source="Images/LanShutDown.icon.gif" Stretch="None"/>

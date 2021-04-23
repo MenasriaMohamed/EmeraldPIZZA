@@ -217,7 +217,7 @@ html
         public static string CurrencySymbol { get { return CultureInfo.CurrentCulture.NumberFormat.CurrencySymbol; } }
 
         private static int DefaultDbVersion { get { return 24; } }
-        private static string DefaultAppVersion { get { return "Astro-SOFT"; } }
+        private static string DefaultAppVersion { get { return "Astro-Soft"; } }
 
         public static int DbVersion { get { return CanReadVersionFromFile() ? Convert.ToInt32(GetVersionDat("DbVersion")) : DefaultDbVersion; } }
         public static string AppVersion { get { return CanReadVersionFromFile() ? GetVersionDat("AppVersion") : DefaultAppVersion; } }

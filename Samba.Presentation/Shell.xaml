@@ -3,7 +3,7 @@
         xmlns:cal="http://www.codeplex.com/CompositeWPF"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
         Title="Emerald Pos" WindowStartupLocation="CenterScreen" WindowStyle="SingleBorderWindow"
-        WindowState="Normal" SnapsToDevicePixels="True" Height="600" Width="800" Closing="WindowClosing" Loaded="WindowLoaded" Icon="/Samba.Presentation;component/apple.ico">
+        WindowState="Maximized" SnapsToDevicePixels="True"  Closing="WindowClosing" Loaded="WindowLoaded" Icon="/Samba.Presentation;component/emeraldico2.png">
     <Window.Background>
         <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
             <GradientStop Color="#FF70B8FF" Offset="0"/>
@@ -25,7 +25,7 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Stretch">
-            <Image Source="/Samba.Presentation;component/Images/apple-icon.png" Stretch="UniformToFill" Margin="0,0,0,2"></Image>
+            <Image Source="/Samba.Presentation;component/Images/emeraldico2.png" Stretch="UniformToFill" Margin="0,0,0,2"></Image>
             <TextBlock MouseWheel="UIElement_OnMouseWheel" Margin="10,0" FontWeight="Bold" FontSize="24" Foreground="White" MouseDown="TextBlockMouseDown" VerticalAlignment="Center">Emerald-POS</TextBlock>
         </StackPanel>
         <TextBlock Name="TimeLabel" Grid.Row="0" Grid.Column="1" Margin="10,5,10,0" FontSize="18" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Right" FontFamily="Lucida Console">SAAT</TextBlock>
