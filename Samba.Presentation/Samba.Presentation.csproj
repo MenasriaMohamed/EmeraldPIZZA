@@ -74,7 +74,7 @@
     <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>apple.ico</ApplicationIcon>
+    <ApplicationIcon>emeraldico2.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestCertificateThumbprint>D6005C72CA1B30E38C740D138C6CE1EAEFBF8EFE</ManifestCertificateThumbprint>
@@ -363,6 +363,7 @@
     <Resource Include="Images\emeraldico.png" />
     <Resource Include="Images\emeraldico2.png" />
     <Resource Include="emeraldico2.png" />
+    <Resource Include="emeraldico2.ico" />
     <Content Include="Images\empty.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

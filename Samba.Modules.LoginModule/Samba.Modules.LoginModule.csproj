@@ -111,6 +111,12 @@
   <ItemGroup>
     <Resource Include="Images\EMERALDBACK.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\astro-soft-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\logo-astro-black.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>IF NOT "$(ConfigurationName)"=="Release" GOTO End

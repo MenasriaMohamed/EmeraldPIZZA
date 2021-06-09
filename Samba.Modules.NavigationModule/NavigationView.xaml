@@ -9,9 +9,9 @@
              d:DataContext="{d:DesignInstance local:NavigationViewModel, IsDesignTimeCreatable=True}">
     <Grid>
 
-        <Border Opacity="0.5">
+        <Border >
             <Border.Background>
-                <ImageBrush ImageSource="Images/Wallpaper3.jpg" />
+                <ImageBrush ImageSource="Images/EMERALDBACK.jpg" />
             </Border.Background>
         </Border>
 

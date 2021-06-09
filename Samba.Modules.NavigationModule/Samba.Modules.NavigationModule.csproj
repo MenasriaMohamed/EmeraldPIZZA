@@ -138,6 +138,12 @@
     <Resource Include="Images\dcn.png" />
     <Resource Include="Images\note.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\backSmok.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\EMERALDBACK.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>IF NOT "$(ConfigurationName)"=="Release" GOTO End
